@@ -2,6 +2,7 @@ package com.furniture.mapper;
 
 import com.furniture.entity.NoticeType;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Repository;
  * @author za
  * @since 2022-05-18
  */
+@Mapper
 public interface NoticeTypeMapper extends BaseMapper<NoticeType> {
 
 }

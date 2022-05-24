@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.furniture.entity.Item;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 import java.io.Serializable;
@@ -19,6 +20,7 @@ import java.util.Map;
  * @author za
  * @since 2022-05-18
  */
+@Mapper
 public interface ItemMapper extends BaseMapper<Item> {
 
 }
