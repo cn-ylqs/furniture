@@ -2,6 +2,7 @@ package com.furniture.mapper;
 
 import com.furniture.entity.Notice;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>

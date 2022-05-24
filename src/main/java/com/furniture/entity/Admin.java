@@ -45,5 +45,4 @@ public class Admin implements Serializable {
 
     private String email;
 
-
 }
