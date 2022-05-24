@@ -61,6 +61,17 @@ public class AdminController {
     }
 
 
+    /**
+     * 超级管理员退出
+     * @param req
+     * @return
+     */
+    @PostMapping("/logout")
+    public Result logout(HttpServletRequest req){
+        /*清除session中保存的当前登陆管理员的id*/
+        req.getSession().removeAttribute("admin");
+        return Result.succ("退出成功");
+    }
 
 
 }
